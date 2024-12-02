@@ -35,7 +35,7 @@ type WeatherResponse struct {
 		GrndLevel  int     `json:"grnd_level"`
 	} `json:"main"`
 	Visibility int `json:"visibility"`
-	Wind       struct {
+	Wind struct {
 		Speed float64 `json:"speed"`
 		Deg   int     `json:"deg"`
 	} `json:"wind"`
